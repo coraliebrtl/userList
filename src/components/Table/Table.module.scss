@@ -1,0 +1,44 @@
+@import "@/app/colors.scss";
+
+.tableContainer {
+  border: 1px solid $grey2;
+  border-radius: 8px;
+  margin: 2em auto;
+  display: flex;
+
+  table {
+    flex-grow: 1;
+  }
+
+  td p {
+    font-size: 0.8em;
+  }
+
+  thead {
+    background-color: $grey3;
+
+    th {
+      color: $grey4;
+      font-size: 0.7em;
+      font-weight: normal;
+      padding: 0.5em;
+      text-align: left;
+    }
+  }
+}
+
+.subInformation {
+  color: $grey;
+}
+
+.userInformationBlock {
+  display: flex;
+  padding: 0.5em;
+}
+
+.avatar {
+  border-radius: 2em;
+  height: 100%;
+  margin-right: 0.5em;
+  width: 2em;
+}

@@ -1,0 +1,11 @@
+@import "@/app/colors.scss";
+
+.header {
+  align-items: center;
+  background-color: $mainColor;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  margin-bottom: 3em;
+  width: 100%;
+}
